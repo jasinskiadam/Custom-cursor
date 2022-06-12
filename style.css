@@ -12,6 +12,8 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: hidden;
+    cursor: none;
 }
 
 h1 {
@@ -21,3 +23,23 @@ h1 {
     letter-spacing: 0.5vw;
 }
 
+.cursor {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+}
+
+.cursorMain {
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    z-index: 1;
+}
+
+.cursorFollower {
+    width: 10px;
+    height: 10px;
+    background-color: rgb(59, 17, 17);
+    transition:ease-out .5s;
+}

@@ -3,7 +3,7 @@ const cursor = document.createElement('div');
 const cursorFollower = document.createElement('div');
 
 const cursorSize = 15;
-cursorFollowerSize = 10;
+const cursorFollowerSize = 10;
 
 cursor.classList.add('cursor', 'cursorMain');
 cursorFollower.classList.add('cursor', 'cursorFollower')
